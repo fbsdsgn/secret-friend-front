@@ -25,7 +25,7 @@ const HeaderMain = () => {
             <button onClick={() => handleSend()}>Sortear Amigo Secreto</button>
           </div>
         ) :
-          <p onClick={() => setSend(false)}>Verifique seu email</p>
+          <p>Verifique seu email</p>
         }
 
         <div className="btn-post">
