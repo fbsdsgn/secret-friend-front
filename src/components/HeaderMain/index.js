@@ -3,7 +3,7 @@ import axios from "axios"
 import React, { useState, useEffect } from 'react'
 import './style.css'
 const HeaderMain = () => {
-  const [sent, setSend] = useState(!false)
+  const [sent, setSend] = useState(false)
 
   const handleSend = async () => {
     setSend(true)
@@ -25,7 +25,7 @@ const HeaderMain = () => {
             <button onClick={() => handleSend()}>Sortear Amigo Secreto</button>
           </div>
         ) :
-          <p>Verifique seu email</p>
+          <p onClick={() => setSend(!true)}>Verifique seu email</p>
         }
 
         <div className="btn-post">
