@@ -1,0 +1,70 @@
+header {
+  background-color: #2f3644;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1100px;
+  margin: 0 auto;
+
+  height: 100px;
+}
+
+.logo h1 {
+  font-family: Heebo;
+  font-weight: 700;
+  color: #29ebaa;
+
+  cursor: pointer;
+}
+
+.btn-post button {
+  font-size: 1.2rem;
+  font-family: Heebo;
+  font-weight: 700;
+
+  background-color: #447ce2;
+  border: 0;
+
+  color: #fff;
+
+  padding: 10px 20px;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.btn-post button:hover {
+  transition: 0.2s;
+  background-color: #538af0;
+}
+
+
+.btn-edit button{
+  background-color: #80D8FF;
+}
+
+.btn-header button{
+   color: rgba(255, 255, 255, 0.938);
+  font-size: 1.3rem;
+  border: 0;
+
+  margin-top: 0;
+
+  border-radius: 10px;
+
+  font-family: Heebo;
+  font-weight: 700;
+  
+  cursor: pointer;
+
+  padding: 5px 40px;background-color: #f1d364;
+  
+}
+
+.btn-delete button{
+  background-color: rgb(241, 45, 45);
+}
